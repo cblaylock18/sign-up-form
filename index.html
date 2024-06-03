@@ -7,5 +7,91 @@
         <link rel="stylesheet" href="style.css" />
         <script src="script.js"></script>
     </head>
-    <body></body>
+    <body>
+        <div class="left-hand">
+            <p class="hero">
+                <img
+                    class="logo"
+                    src="./imgs/logo.svg"
+                    alt="The site logo, an image of a hammer."
+                />
+                <span class="hero-text">Thor</span>
+            </p>
+        </div>
+        <div class="right-hand">
+            <div class="header">
+                <p class="intro">
+                    This is not a real online service! You know you need
+                    something like this in your life to help you realize your
+                    deepest dreams.<br />
+                    Sign up <em>now </em>to get started. <br /><br />You
+                    <em>know </em>you want to.
+                </p>
+            </div>
+            <div class="form">
+                <form action="/index.html" method="post">
+                    <div class="lets-do-this">
+                        <h2 class="info-heading">Let's do this!</h2>
+                        <div class="info">
+                            <div class="inputs">
+                                <label for="first_name">FIRST NAME</label
+                                ><input
+                                    type="text"
+                                    id="first_name"
+                                    name="first_name"
+                                />
+                            </div>
+                            <div class="inputs">
+                                <label for="last_name">LAST NAME</label
+                                ><input
+                                    type="text"
+                                    id="last_name"
+                                    name="last_name"
+                                />
+                            </div>
+                            <div class="inputs">
+                                <label for="email">EMAIL</label
+                                ><input type="email" id="email" name="email" />
+                            </div>
+                            <div class="inputs">
+                                <label for="phone">PHONE NUMBER</label
+                                ><input type="tel" id="phone" name="phone" />
+                            </div>
+                            <div class="inputs">
+                                <label for="password">PASSWORD</label
+                                ><input
+                                    type="password"
+                                    id="password"
+                                    name="password"
+                                    minlength="8"
+                                />
+                                <p class="error"></p>
+                            </div>
+                            <div class="inputs">
+                                <label for="confirm_password"
+                                    >CONFIRM PASSWORD</label
+                                >
+                                <input
+                                    type="password"
+                                    id="confirm_password"
+                                    name="confirm_password"
+                                    minlength="8"
+                                />
+                                <p class="error"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="links">
+                        <button type="submit">Create Account</button>
+                        <p class="log-in">
+                            Already have an account?
+                            <a href="./index.html" class="log-in-link"
+                                >Log In</a
+                            >
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
 </html>
